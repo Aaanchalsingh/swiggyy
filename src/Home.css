@@ -1,0 +1,21 @@
+.body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(3, 3, 45);
+  padding: 3%;
+}
+
+.body .a a img {
+  transition: all 0.5s ease-in-out;
+}
+
+.body .a a img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .a a img{
+        width: 50%;
+        height: 30%;
+    }
+}
