@@ -58,4 +58,6 @@
 .outercard:hover {
     box-shadow: 2px 2px 2px rgb(207, 199, 199);
     border: 1px solid rgb(158, 155, 155);
+    margin-left: 5%;
+    margin-top: 4.9%;
 }

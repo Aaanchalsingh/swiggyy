@@ -7,7 +7,7 @@ function Card(props) {
     <div className="outercard">
     <div class="cardd">
           <div className="parentpromote">
-          <Link to="/cart" image={props.img}>
+          <Link to="/cart" image={props.img} >
             <img
               className="_2tuBw _12_oN"
               alt="Yummy Delicious Till Last Bite"
